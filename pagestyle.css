@@ -14,7 +14,7 @@ h1 {
     align-items: center;
 }
 #container > div {
-    background-color: lightskyblue;
+    background-color: lightseagreen;
     font-size: 16px rgb(75, 75, 75);
     margin: 15px;
     padding: 20px;
@@ -27,6 +27,6 @@ a {
     font-weight: bold;
     color: midnightblue;
 }
-a.hover {
+a:hover {
     color: red;
 }
