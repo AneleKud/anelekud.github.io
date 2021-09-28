@@ -11,12 +11,12 @@ h1 {
 #container {
     display: flex;
     flex-wrap: wrap;
-    flex-direction: column;
+    flex-direction: row;
     justify-content: center;
     align-items: stretch;
 }
 #container > div {
-    background-color: lightseagreen;
+    background-color: lightsteelblue;
     font-size: 16px rgb(75, 75, 75);
     margin: 15px;
     padding: 20px;
