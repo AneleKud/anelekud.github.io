@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Advanced Search</title>
+        <link rel="stylesheet" href="style/search-style.css">
+
+    </head>
+    <body>
+   
+        <div class="firstrow">
+            <a href="search.html">Back to home</a>  /
+            <a href="images.html">Images Search</a> 
+        </div> 
+        <div class="searchform">
+            <img class="img" src="img/search_adv.png" alt="Google Search">
+
+        </div>
+        <h2 class="header2">Знайти сторінки з</h2>
+        <div class="searchform">
+            
+            <form action="https://google.com/search" method="GET">
+                <div>
+                    
+                    <input  class="input" type="text" name="as_q" placeholder="...усіма цими словами">
+                </div>
+                <div>
+                    <input  class="input" type="text" name="as_epq" placeholder="...саме з цим словом чи фразою">
+                </div>
+                <div>
+                    <input class="input" type="text" name="as_oq" placeholder="...з будь-яким з цих слів">
+                </div>
+                <div>
+                    <input  class="input" type="text" name="as_eq" placeholder="...з жодним з цих слів">
+                </div>
+                
+                <div>
+                    <input class="button" type="submit" value="Google Advansed Search">
+                </div>
+            
+            </form>
+        </div>
+   
+    </body>
+</html>
